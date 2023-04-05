@@ -1,14 +1,10 @@
-# Welcome to your CDK TypeScript project
+# APPSYNC API
+> AWS AppSync is a fully managed service that enables you to develop GraphQL APIs by connecting to multiple data sources. With AWS AppSync, you can easily create, configure, and deploy GraphQL APIs at scale.
 
-This is a blank project for CDK development with TypeScript.
+> As an alternative to Amplify, AppSync allows you to handle and deploy GraphQL APIs across multiple environments with ease. It also provides a range of features such as caching, real-time data synchronization, and offline access.
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+> This repository contains a basic example of how to deploy a complete stack using AWS AppSync. The configuration provided will serve as a starting point for creating your own AppSync API, which can be customized according to your needs.
 
-## Useful commands
 
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `cdk deploy`      deploy this stack to your default AWS account/region
-* `cdk diff`        compare deployed stack with current state
-* `cdk synth`       emits the synthesized CloudFormation template
+## Deploy
+- command: `npx cdk deploy -c env=development`
